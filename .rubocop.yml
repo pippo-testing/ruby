@@ -1,0 +1,26 @@
+inherit_from: rails_rubocop.yml
+
+AllCops:
+  TargetRailsVersion: 4.2
+  TargetRubyVersion: 2.2
+
+Style/GlobalVars:
+  AllowedVariables:
+    - $statsd
+    - $mongo
+    - $rollout
+    - $drip
+    - $redis
+    - $gridfs
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false

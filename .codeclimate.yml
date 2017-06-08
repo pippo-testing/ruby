@@ -1,0 +1,19 @@
+prepare:
+  fetch:
+    - url: https://raw.githubusercontent.com/codeclimate/styleguide/master/ruby/rubocop.yml
+      path: base_rubocop.yml
+
+    - url: https://raw.githubusercontent.com/codeclimate/styleguide/master/ruby/rails_rubocop.yml
+      path: rails_rubocop.yml
+
+engines:
+  rubocop:
+    enabled: true
+    exclude_paths:
+    - "!spec/"
+    config:
+      file: ".rubocop.yml"
+ratings:
+  paths:
+  - "**.rb"
+exclude_paths: []
