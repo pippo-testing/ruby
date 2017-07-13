@@ -29,6 +29,54 @@ class ClassMethods
   end
 
   def self.long_method
+    # print number 1
+    # 12 times
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    puts "1"
+    if true
+      if true
+        if true
+          if true
+            if false
+              puts "foo"
+            end
+          end
+        end
+      end
+    end
+    if true
+      if true
+        if true
+          if true
+            if false
+              if true
+                if true
+                  if true
+                    if true
+                      if false
+                        puts "foo"
+                      end
+                    end
+                  end
+                end
+              end
+              puts "foo"
+            end
+          end
+        end
+      end
+    end
+
     # print number 13
     # 10 times
     print "13"
