@@ -1,4 +1,12 @@
 class ClassMethods
+  def self.main
+    something = $mongodb.do_whatever()
+
+    if !something
+      puts "should cause rubocop error - prefer unless something"
+    end
+  end
+
   def self.nested_logic
     if true
       if true
