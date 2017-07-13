@@ -4,8 +4,6 @@ AllCops:
   TargetRailsVersion: 4.2
   TargetRubyVersion: 2.2
 
-Style/GlobalVars:
-
 Metrics/BlockLength:
   Enabled: true
 
