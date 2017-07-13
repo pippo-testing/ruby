@@ -5,22 +5,15 @@ AllCops:
   TargetRubyVersion: 2.2
 
 Style/GlobalVars:
-  AllowedVariables:
-    - $statsd
-    - $mongo
-    - $rollout
-    - $drip
-    - $redis
-    - $gridfs
 
 Metrics/BlockLength:
-  Enabled: false
+  Enabled: true
 
 Metrics/CyclomaticComplexity:
-  Enabled: false
+  Enabled: true
 
 Metrics/ParameterLists:
-  Enabled: false
+  Enabled: true
 
 Metrics/PerceivedComplexity:
-  Enabled: false
+  Enabled: true
