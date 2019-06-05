@@ -9,6 +9,7 @@ prepare:
 engines:
   rubocop:
     enabled: true
+    channel: "rubocop-0-71"
     exclude_paths:
     - "!spec/"
     config:
